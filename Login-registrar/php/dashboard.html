@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Panel de Usuario</title>
+</head>
+<body id="body">
+    <main>
+        <div class="left-bar">
+            <button class="button-bar-1" style="margin-top: 20px;"><img src="img/account.svg" alt=""></button>
+            <button class="button-bar-2" style="margin-top: 20px;"><img src="img/companyadd.svg" alt=""></button>
+            <button class="button-bar-3" style="margin-top: 20px;"><img src="img/useradd.svg" alt=""></button>
+            <button class="button-bar-4" style="margin-top: 20px;"><img src="img/chatbot.svg" alt=""></button>
+            <button class="button-bar-5" style="margin-top: 20px;"><img src="img/plus.svg" alt=""></button>
+
+            <footer>
+                <label for="toggle" id="textlabel">Cambiar tema</label>
+                <input type="checkbox" id="toggle">
+            </footer>
+        </div>
+        <main class="main-section">
+            <section class="container-notifications">
+                <div class="card-menu-notification">
+                    <header>
+                        <button><h2>Notificaciones</h2></button>
+                    </header>
+                </div>
+            </section>
+            <!-- Documentos -->
+            <section class="container-documents">
+                <div class="card-menu-documents">
+                    <header>
+                        <button><h2>Documentos</h2></button>
+                    </header>
+                </div>
+
+            </section>
+            <!-- Notepad -->
+            <section class="container-notepad">
+                <div class="card-menu-notepad">
+                    <header>
+                        <button><h2>Bloc de Notas</h2></button>
+                    </header>
+                </div>
+            </section>
+            <!-- Calendar -->
+            <section class="container-calendar">
+                <div class="card-menu-calendar">
+                    <header>
+                        <button><h2>Calendario</h2></button>
+                    </header>
+                </div>
+            </section>
+
+            <section class="extended-menu">
+                <div class="expand-menu-account">
+                    <h2>Account</h2>
+                </div>
+                <div class="expand-menu-company">
+                    <h2>Company</h2>
+                </div>
+                <div class="expand-menu-user">
+                    <h2>User</h2>
+                </div>
+                <div class="expand-menu-chat">
+                    <h2>Chat</h2>
+                </div>
+                <div class="expand-menu-notepad">
+                    <h2>Notepad</h2>
+                </div>
+                <div class="expand-menu-calendar">
+                    <h2>Calendar</h2>
+                </div>
+                <div class="expand-menu-documents">
+                    <h2>Documents</h2>
+                </div>
+                <div class="expand-menu-plus">
+                    <div class="bubble-container">
+                    <button class="notepad-button"><img src="img/notepad.svg" alt="notepad"></button>
+                    <button class="calendar-button"><img src="img/calendar.svg" alt="calendar"></button>
+                    <button class="documents-button"><img src="img/document.svg" alt="documents"></button>
+                </div>
+                </div>
+
+                </div>
+            </section>
+        </main>
+        </main>
+    <script src="script.js"></script>
+</body>
+</html>
